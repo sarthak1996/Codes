@@ -72,7 +72,9 @@ public class SortRunner {
         sorts.add(new RecursiveBubbleSort(false));
         sorts.add(new InsertionSort(false));
         sorts.add(new MergeSort(false));
-        sorts.add(new IterativeMergeSort(false));
+        //sorts.add(new IterativeMergeSort(false));
+        sorts.add(new QuickSort(false));
+        sorts.add(new HeapSort(false));
         return sorts;
     }
 }

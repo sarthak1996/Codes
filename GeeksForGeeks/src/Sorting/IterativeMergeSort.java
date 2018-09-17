@@ -3,7 +3,7 @@ package Sorting;
 public class IterativeMergeSort extends SortHelper {
     @Override
     public boolean sort(int[] a) {
-        /*todo*/
+
         return printFlag;
     }
 
